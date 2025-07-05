@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #3d7278;
+}
+
+img {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+h1,h2{
+    font-family: 'Impact', sans-serif;
+    color: #203A81
+}
+
+.search{
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
