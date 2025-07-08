@@ -22,6 +22,7 @@ h1,h2{
     padding: 10px;
     border-radius: 5px;
     background-color: #fff;
+    position: relative;
 }
 
 .search form {
@@ -51,4 +52,39 @@ h1,h2{
 
 .search button:hover {
     background-color: #1a2a5c;
+}
+
+#suggestions {
+    position: absolute;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 999;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 5px;
+}
+
+#suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions div:hover {
+    background-color: #f0f0f0;
+}
+
+#playerInfo {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    max-width: 320px;
+}
+
+#playerInfo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
 }
