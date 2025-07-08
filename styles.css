@@ -2,7 +2,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #3d7278;
+    background-color: #ffffff
 }
 
 img {
@@ -22,4 +22,33 @@ h1,h2{
     padding: 10px;
     border-radius: 5px;
     background-color: #fff;
+}
+
+.search form {
+    display: flex;
+    gap: 10px;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.search button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #203A81;
+    color: white;
+    border: 10px solid ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #1a2a5c;
 }
